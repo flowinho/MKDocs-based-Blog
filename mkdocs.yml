@@ -8,6 +8,7 @@ plugins:
   - privacy
   - search
   - blog
+  - social
   - tags:
       tags_file: tags.md
 theme:
