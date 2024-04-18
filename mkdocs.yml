@@ -1,0 +1,83 @@
+site_url: https://florianschuttkowski.com
+repo_url: https://github.com/flowinho/MKDocs-based-Blog
+repo_name: flowinho/mkdocs-based-blog
+site_name: Florian Schuttkowski
+copyright: >
+  Copyright &copy; 2023-2024 Florian Schuttkowski -
+  <a href="#__consent">Cookie-Einstellungen anpassen</a>
+plugins:
+  - privacy
+  - search
+  - blog
+  - tags:
+      tags_file: tags.md
+theme:
+  name: material
+  language: de
+  icon:
+    logo: material/application-braces-outline
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.path
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+  palette:
+      - media: "(prefers-color-scheme)"
+        toggle:
+          icon: material/brightness-auto
+          name: Zum hellen Design wechseln
+
+      - media: "(prefers-color-scheme: light)"
+        scheme: default
+        toggle:
+          icon: material/brightness-7
+          name: Zum dunklen Design wechseln
+
+      - media: "(prefers-color-scheme: dark)"
+        scheme: slate
+        toggle: 
+          icon: material/brightness-4
+          name: Zum automatischen Modus wechseln
+
+markdown_extensions:
+  - footnotes
+  - pymdownx.caret
+  - pymdownx.keys
+  - admonition
+  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/mastodon
+      link: https://chaos.social/@flowinho
+    - icon: fontawesome/brands/github
+      link: https://github.com/flowinho
+    - icon: fontawesome/brands/slack
+      link: https://audiodump.de/slack
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:mail@florianschuttkowski.com
+  consent:
+    title: Cookies?
+    description: >-
+      Test
+
+extra_css:
+  - stylesheets/extra.css
