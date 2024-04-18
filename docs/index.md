@@ -1,17 +1,5 @@
-# Welcome to MkDocs
+# Startseite
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Kurze Biografie
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Derzeit arbeite ich in der Position des iOS-Lead Entwicklers und Architekten in einem europa weltweiten Plattform-Projekt für die Elektrofahrzeug-Ladeinfrastruktur der Robert Bosch GmbH. Davor war ich als iOS-Entwickler in verschiedenen Projekten der Robert Bosch GmbH sowie beim Start-up myScotty tätig. Vor meiner Anstellung bei Bosch hatte ich die Position des Technischen Direktors in der Videospiel- und Softwarefirma Zeitland media and games GmbH inne.

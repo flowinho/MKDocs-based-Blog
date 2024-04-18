@@ -21,7 +21,6 @@ theme:
   features:
     - navigation.instant
     - navigation.instant.progress
-    - navigation.tabs
     - navigation.path
     - toc.follow
     - navigation.top
@@ -50,6 +49,8 @@ theme:
           name: Zum automatischen Modus wechseln
 
 markdown_extensions:
+  - attr_list
+  - md_in_html
   - footnotes
   - pymdownx.caret
   - pymdownx.keys
