@@ -3,8 +3,7 @@ repo_url: https://github.com/flowinho/MKDocs-based-Blog
 repo_name: flowinho/mkdocs-based-blog
 site_name: Florian Schuttkowski
 copyright: >
-  Copyright &copy; 2023-2024 Florian Schuttkowski -
-  <a href="#__consent">Cookie-Einstellungen anpassen</a>
+  Copyright &copy; 2023-2024 Florian Schuttkowski
 plugins:
   - privacy
   - search
@@ -38,14 +37,16 @@ theme:
 
       - media: "(prefers-color-scheme: light)"
         scheme: default
+        primary: black
         toggle:
-          icon: material/brightness-7
+          icon: material/weather-night
           name: Zum dunklen Design wechseln
 
       - media: "(prefers-color-scheme: dark)"
         scheme: slate
+        primary: orange
         toggle: 
-          icon: material/brightness-4
+          icon: material/weather-sunny
           name: Zum automatischen Modus wechseln
 
 markdown_extensions:
@@ -74,10 +75,10 @@ extra:
       link: https://audiodump.de/slack
     - icon: fontawesome/solid/paper-plane
       link: mailto:mail@florianschuttkowski.com
-  consent:
-    title: Cookies?
-    description: >-
-      Test
+        #  consent:
+        #title: Cookies?
+        #description: >-
+        #Test
 
 extra_css:
   - stylesheets/extra.css
