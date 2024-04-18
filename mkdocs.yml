@@ -27,7 +27,6 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
-    - header.autohide
   palette:
       - media: "(prefers-color-scheme)"
         toggle:
@@ -36,7 +35,7 @@ theme:
 
       - media: "(prefers-color-scheme: light)"
         scheme: default
-        primary: black
+        primary: deep purple
         toggle:
           icon: material/weather-night
           name: Zum dunklen Design wechseln
